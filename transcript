@@ -1,0 +1,643 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:12:44 on Dec 08,2020
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 01:12:44 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:12:44 on Dec 08,2020
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 01:12:45 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:12:45 on Dec 08,2020
+# vlog -reportprogress 300 ./Input.sv 
+# -- Compiling module Input
+# -- Compiling module Input_testbench
+# 
+# Top level modules:
+# 	Input_testbench
+# End time: 01:12:46 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:12:46 on Dec 08,2020
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 01:12:47 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:12:47 on Dec 08,2020
+# vlog -reportprogress 300 ./Press.sv 
+# -- Compiling module Press
+# 
+# Top level modules:
+# 	Press
+# End time: 01:12:48 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:12:48 on Dec 08,2020
+# vlog -reportprogress 300 ./DFFs.sv 
+# -- Compiling module DFFs
+# 
+# Top level modules:
+# 	DFFs
+# End time: 01:12:49 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:12:49 on Dec 08,2020
+# vlog -reportprogress 300 ./bird.sv 
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# 
+# Top level modules:
+# 	bird_testbench
+# End time: 01:12:50 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:12:50 on Dec 08,2020
+# vlog -reportprogress 300 ./collision.sv 
+# -- Compiling module collision
+# -- Compiling module collision_testbench
+# 
+# Top level modules:
+# 	collision_testbench
+# End time: 01:12:51 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:12:51 on Dec 08,2020
+# vlog -reportprogress 300 ./pipeShift.sv 
+# -- Compiling module pipeShift
+# -- Compiling module pipeShift_testbench
+# 
+# Top level modules:
+# 	pipeShift_testbench
+# End time: 01:12:51 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:12:52 on Dec 08,2020
+# vlog -reportprogress 300 ./single_hex.sv 
+# -- Compiling module single_hex
+# -- Compiling module single_hex_testbench
+# 
+# Top level modules:
+# 	single_hex_testbench
+# End time: 01:12:52 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 01:12:54 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.Press
+# Loading work.DFFs
+# Loading work.collision
+# Loading work.bird
+# Loading work.pipeShift
+# Loading work.single_hex
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(196): [TFMPC] - Too few port connections. Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(196): [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(196): [PCDPC] - Port size (7) does not match connection size (36) for port 'HEX1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(196): [PCDPC] - Port size (7) does not match connection size (10) for port 'HEX4'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(196): [PCDPC] - Port size (7) does not match connection size (4) for port 'HEX5'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(196): [PCDPC] - Port size (4) does not match connection size (10) for port 'KEY'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(196): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(196): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(196): [TFMPC] - Missing connection for port 'GPIO_1'.
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(196): [TFMPC] - Missing connection for port 'CLOCK_50'.
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(247): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(246): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(245): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(244): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(243): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(242): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(241): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(240): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(239): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(238): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(237): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(236): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(235): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(234): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(233): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(232): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(231): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(230): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(229): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(228): Variable '/DE1_SoC_testbench/HEX0', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(225): Variable '/DE1_SoC_testbench/HEX0', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(224): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(223): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(222): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(221): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(220): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(219): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(218): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(217): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(216): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(215): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(214): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(213): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(212): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(211): Variable '/DE1_SoC_testbench/HEX1', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(210): Variable '/DE1_SoC_testbench/HEX0', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(202): Variable '/DE1_SoC_testbench/CLOCK_50', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(201): Variable '/DE1_SoC_testbench/CLOCK_50', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(249)
+#    Time: 4150 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 249
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:16 on Dec 08,2020
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 01:14:17 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:17 on Dec 08,2020
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 01:14:17 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:18 on Dec 08,2020
+# vlog -reportprogress 300 ./Input.sv 
+# -- Compiling module Input
+# -- Compiling module Input_testbench
+# 
+# Top level modules:
+# 	Input_testbench
+# End time: 01:14:18 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:18 on Dec 08,2020
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 01:14:19 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:19 on Dec 08,2020
+# vlog -reportprogress 300 ./Press.sv 
+# -- Compiling module Press
+# 
+# Top level modules:
+# 	Press
+# End time: 01:14:20 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:20 on Dec 08,2020
+# vlog -reportprogress 300 ./DFFs.sv 
+# -- Compiling module DFFs
+# 
+# Top level modules:
+# 	DFFs
+# End time: 01:14:20 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:21 on Dec 08,2020
+# vlog -reportprogress 300 ./bird.sv 
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# 
+# Top level modules:
+# 	bird_testbench
+# End time: 01:14:21 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:21 on Dec 08,2020
+# vlog -reportprogress 300 ./collision.sv 
+# -- Compiling module collision
+# -- Compiling module collision_testbench
+# 
+# Top level modules:
+# 	collision_testbench
+# End time: 01:14:22 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:22 on Dec 08,2020
+# vlog -reportprogress 300 ./pipeShift.sv 
+# -- Compiling module pipeShift
+# -- Compiling module pipeShift_testbench
+# 
+# Top level modules:
+# 	pipeShift_testbench
+# End time: 01:14:23 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:14:23 on Dec 08,2020
+# vlog -reportprogress 300 ./single_hex.sv 
+# -- Compiling module single_hex
+# -- Compiling module single_hex_testbench
+# 
+# Top level modules:
+# 	single_hex_testbench
+# End time: 01:14:24 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 01:14:37 on Dec 08,2020, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 48
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 01:14:37 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.Press
+# Loading work.DFFs
+# Loading work.collision
+# Loading work.bird
+# Loading work.pipeShift
+# Loading work.single_hex
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(196): [TFMPC] - Too few port connections. Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(196): [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(196): [PCDPC] - Port size (7) does not match connection size (36) for port 'HEX1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(196): [PCDPC] - Port size (7) does not match connection size (10) for port 'HEX4'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(196): [PCDPC] - Port size (7) does not match connection size (4) for port 'HEX5'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(196): [PCDPC] - Port size (4) does not match connection size (10) for port 'KEY'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(196): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(196): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(196): [TFMPC] - Missing connection for port 'GPIO_1'.
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(196): [TFMPC] - Missing connection for port 'CLOCK_50'.
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(246): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(245): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(244): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(243): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(242): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(241): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(240): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(239): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(238): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(237): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(236): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(235): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(234): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(233): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(232): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(231): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(230): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(229): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(228): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(227): Variable '/DE1_SoC_testbench/HEX0', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(224): Variable '/DE1_SoC_testbench/HEX0', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(223): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(222): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(221): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(220): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(219): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(218): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(217): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(216): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(215): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(214): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(213): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(212): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(211): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(210): Variable '/DE1_SoC_testbench/HEX1', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(209): Variable '/DE1_SoC_testbench/HEX0', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(202): Variable '/DE1_SoC_testbench/CLOCK_50', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(201): Variable '/DE1_SoC_testbench/CLOCK_50', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(248)
+#    Time: 4050 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 248
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:15:22 on Dec 08,2020
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 01:15:23 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:15:23 on Dec 08,2020
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 01:15:24 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:15:24 on Dec 08,2020
+# vlog -reportprogress 300 ./Input.sv 
+# -- Compiling module Input
+# -- Compiling module Input_testbench
+# 
+# Top level modules:
+# 	Input_testbench
+# End time: 01:15:24 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:15:24 on Dec 08,2020
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 01:15:25 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:15:25 on Dec 08,2020
+# vlog -reportprogress 300 ./Press.sv 
+# -- Compiling module Press
+# 
+# Top level modules:
+# 	Press
+# End time: 01:15:26 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:15:26 on Dec 08,2020
+# vlog -reportprogress 300 ./DFFs.sv 
+# -- Compiling module DFFs
+# 
+# Top level modules:
+# 	DFFs
+# End time: 01:15:26 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:15:26 on Dec 08,2020
+# vlog -reportprogress 300 ./bird.sv 
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# 
+# Top level modules:
+# 	bird_testbench
+# End time: 01:15:27 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:15:27 on Dec 08,2020
+# vlog -reportprogress 300 ./collision.sv 
+# -- Compiling module collision
+# -- Compiling module collision_testbench
+# 
+# Top level modules:
+# 	collision_testbench
+# End time: 01:15:28 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:15:28 on Dec 08,2020
+# vlog -reportprogress 300 ./pipeShift.sv 
+# -- Compiling module pipeShift
+# -- Compiling module pipeShift_testbench
+# 
+# Top level modules:
+# 	pipeShift_testbench
+# End time: 01:15:28 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:15:29 on Dec 08,2020
+# vlog -reportprogress 300 ./single_hex.sv 
+# -- Compiling module single_hex
+# -- Compiling module single_hex_testbench
+# 
+# Top level modules:
+# 	single_hex_testbench
+# End time: 01:15:29 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:15:38 on Dec 08,2020, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 48
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 01:15:38 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.Press
+# Loading work.DFFs
+# Loading work.collision
+# Loading work.bird
+# Loading work.pipeShift
+# Loading work.single_hex
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(196): [TFMPC] - Too few port connections. Expected 11, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(196): [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(196): [PCDPC] - Port size (7) does not match connection size (36) for port 'HEX1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(196): [PCDPC] - Port size (7) does not match connection size (10) for port 'HEX4'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(196): [PCDPC] - Port size (7) does not match connection size (4) for port 'HEX5'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(196): [PCDPC] - Port size (4) does not match connection size (10) for port 'KEY'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(196): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(196): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(196): [TFMPC] - Missing connection for port 'GPIO_1'.
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(196): [TFMPC] - Missing connection for port 'CLOCK_50'.
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(245): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(244): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(243): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(242): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(241): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(240): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(239): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(238): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(237): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(236): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(235): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(234): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(233): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(232): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(231): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(230): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(229): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(228): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(227): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(226): Variable '/DE1_SoC_testbench/HEX0', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(223): Variable '/DE1_SoC_testbench/HEX0', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(222): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(221): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(220): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(219): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(218): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(217): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(216): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(215): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(214): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(213): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(212): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(211): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(210): Variable '/DE1_SoC_testbench/KEY[0]', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(209): Variable '/DE1_SoC_testbench/HEX1', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(209): Variable '/DE1_SoC_testbench/HEX0', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(202): Variable '/DE1_SoC_testbench/CLOCK_50', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(201): Variable '/DE1_SoC_testbench/CLOCK_50', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(196).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: ./DE1_SoC.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(247)
+#    Time: 3950 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 247
+# End time: 01:16:24 on Dec 08,2020, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 48
